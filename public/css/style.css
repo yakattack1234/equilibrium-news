@@ -43,4 +43,9 @@ div {
 } */
 html{
   text-align: center;
+  background-image: url("http://i.imgur.com/WqDntG3.png?1");
+  background-repeat: no-repeat;
+  background-size: 300px 240px;
+   background-attachment: fixed;
+    background-position: center; 
 }
