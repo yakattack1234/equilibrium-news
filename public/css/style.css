@@ -1,0 +1,46 @@
+/* h1 {
+  text-align: center;
+}
+div {
+    width: 300px;
+    border: 5px solid black;
+    margin: 100px;
+}
+.buisness {
+    text-align: center;
+    text-decoration: underline
+    width: 300px;
+    padding: 100px;
+    border: 5px solid black;
+    margin: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 700;
+}
+.politics{
+    width: 300px;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 400;
+}
+.world {
+    width: 300px;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 300;
+}
+.economy {
+    width: 300px;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 100px;
+} */
+html{
+  text-align: center;
+}

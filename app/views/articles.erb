@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Articles</title>
+ </head>
+ <body>
+   <a href = "/home">Home</a><br>
+   <%@articles.each do |article| %>
+   <a href = "/read?article=<%=article.id%>"> <font color = black><font size="5"><%= article.headline %></font></font></a><br> 
+<% end %>
+ </body>
+</html>
