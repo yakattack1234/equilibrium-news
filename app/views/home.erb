@@ -13,7 +13,8 @@
 Username: <font size="3"><%= @name %><br></font><br>
 <% if session[:user_id] == nil %>
 <a href = "/login">Login</a><br>
+<a href = "/sign-up">Sign up</a><br>
  <% else%>
 <a href = "/sign-out">Sign out</a><br>
  <% end%>
-<a href = "/sign-up">Sign up</a><br><a href = "/articles">Articles</a><br><a href = "/write-a-article">Write a article</a>
+<a href = "/articles">Articles</a><br><a href = "/write-a-article">Write a article</a>

@@ -6,7 +6,7 @@
   <title>Articles</title>
  </head>
  <body>
-   <a href = "/home">Home</a><br>
+   <font color = black><a href = "/home">Home</a><br></font>
    <%@articles.each do |article| %>
    <a href = "/read?article=<%=article.id%>"> <font color = black><font size="5"><%= article.headline %></font></font></a><br> 
 <% end %>
